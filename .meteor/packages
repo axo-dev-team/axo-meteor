@@ -9,4 +9,6 @@ autopublish
 insecure
 iron:router
 twbs:bootstrap
+accounts-password
 sacha:spin
+ian:accounts-ui-bootstrap-3

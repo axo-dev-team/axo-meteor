@@ -1,6 +1,6 @@
 <template name="header">
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -13,6 +13,9 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{pathFor 'owners'}}">Find Owners</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    {{> loginButtons}} <!-- here -->
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
