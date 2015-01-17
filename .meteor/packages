@@ -11,3 +11,5 @@ twbs:bootstrap
 accounts-password
 sacha:spin
 ian:accounts-ui-bootstrap-3
+zimme:iron-router-active
+monbro:iron-router-breadcrumb
